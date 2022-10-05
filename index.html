@@ -5,18 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=ge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
+    <header class=".visually-hidden">
       Головна
       <nav>
         <ul>
           <li>
-            <a href="./index.html"><span>Web</span><span>Studio</span></a>
+            <a lang="en" class="logo" href="./index.html"
+              ><span class="logo-web">Web</span
+              ><span class="logo-studio">Studio</span>
+            </a>
           </li>
-          <li><a href="#">Студія</a></li>
-          <li><a href="#">Портфоліо</a></li>
+          <li><a href="./index.html">Студія</a></li>
+          <li><a href="./portfolio.html">Портфоліо</a></li>
           <li><a href="#">Контакти</a></li>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
@@ -24,14 +39,14 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+      <section class="section-main">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <p><button type="button">Замовити послугу</button></p>
       </section>
-      <section>
+      <section class="section-advantages">
         <ul>
           <li>
-            <h2>Наші переваги</h2>
+            <h2 class=".visually-hidden">Наші переваги</h2>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
@@ -130,7 +145,10 @@
     <footer>
       <address>
         <p>
-          <a href="./index.html"><span>Web</span><span>Studio</span></a>
+          <a lang="en" class="logo" href="./index.html"
+            ><span class="logo-accent">Web</span
+            ><span class="logo-accent-second">Studio</span>
+          </a>
         </p>
         <ul>
           <li>
