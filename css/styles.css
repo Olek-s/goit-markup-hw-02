@@ -1,5 +1,17 @@
+:root {
+    --color-primery: #4f4f4f;
+    --color-backgroun: #f5f5f5;
+    --color-section-background: #2f303a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #F5F5F5;
+    color: var(--color-primery)
+    background-color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
     font-family: 'Raleway', sans-serif;
     
@@ -20,7 +32,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -30,7 +42,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -40,11 +52,12 @@ body {
 }
 
 .hero-title {
+    display: flexbox;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -54,7 +67,7 @@ body {
 .section-main {
     height: 600px;
     padding: 200px 300px;
-    line-height: 136%;
+    line-height: 1.36;
     background: #2F303A;
 }
 
@@ -85,7 +98,8 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    display: flex;
+    display: flexbox;
+    cursor: pointer;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
