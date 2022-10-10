@@ -17,6 +17,33 @@ body {
     
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.nav-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-links:hover {
+    color: #2196F3;
+}
+
 .logo-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -37,19 +64,7 @@ body {
     color: #000000;
 }
 
-.nav-links {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1428;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
 
-.nav-links:hover {
-    color: #2196F3;
-}
 
 .hero-title {
     display: flexbox;
@@ -79,18 +94,7 @@ body {
 
 }
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
+
 
 .primery-button {
     font-family: 'Roboto';
