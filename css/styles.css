@@ -12,6 +12,7 @@
 
 body {
   color: var(--color-primery);
+  background-color: var(--color-primary-white);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -86,6 +87,7 @@ body {
   height: 600px;
   left: 0px;
   top: 80px;
+  bottom: 30px;
   padding: 200px 452px 280px;
   line-height: 1.36;
   background: #2f303a;
@@ -109,30 +111,63 @@ body {
   background-color: #2196f3;
 }
 .primery-button:hover {
-  color: #f5f5f5;
+  color: #2196f3;
   background-color: var(--color-primary-white);
   border: 2px solid red;
 }
-primery-button:focus {
-  color: #f5f5f5;
+.primery-button:focus {
+  color: #2196f3;
   background-color: var(--color-primary-white);
   border: 2px solid red;
+}
 
-  .section-advantages {
-    /*position: relative;
-    width: 1600px;
-    height: 246px;
-    background-color: var(--color-primary-white);*/
-  }
+.section-advantages: {
+  position: relative;
+  font-style: normal;
+  position: absolute;
+  width: 1170px;
+  height: 98px;
+  left: 215px;
+  top: 774px;
+  padding: 200px 452px 280px;
+  line-height: 1.36;
+  background-color: var(--color-primary-white);
+}
 
-  /*.hero-button {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
+.advantages-titles: {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
 
-    font-style: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+.advantages-text: {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-    cursor: pointer;*/
+/*footer*/
+.address: {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.address-mail: {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
