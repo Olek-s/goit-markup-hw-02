@@ -1,6 +1,7 @@
 :root {
     --color-primery: #4f4f4f;
     --color-backgroun: #f5f5f5;
+    --color-primary-white: #ffffff;
     --color-section-background: #2f303a;
 }
 * {
@@ -31,10 +32,11 @@ body {
 }
 
 .nav-links {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    text-decoration: none;
     line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #212121;
@@ -44,18 +46,19 @@ body {
     color: #2196F3;
 }
 
-.logo-web {
-    font-family: 'Raleway';
+.logo {
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;   
+    line-height: 1.1923;   
     letter-spacing: 0.03em; 
     color: #2196F3;
+    text-decoration: none;
 }
 
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -64,10 +67,12 @@ body {
     color: #000000;
 }
 
-
-
 .hero-title {
     display: flexbox;
+    Width: 696px;
+    Height: 120px;
+    Top: 280px;
+    Left: 452px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -76,56 +81,58 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--color-primary-white);
 }
 
 .section-main {
+    
+    position: relative;
+    width: 1600px;
     height: 600px;
-    padding: 200px 300px;
+    left: 0px;
+    top: 80px;
+    padding: 200px 452px 280px;
     line-height: 1.36;
     background: #2F303A;
 }
 
-.section-advantages {
-    /*position: relative;
-    width: 1600px;
-    height: 246px;*/
-    background: #FFFFFF;
-
-}
-
-
-
 .primery-button {
     font-family: 'Roboto';
     font-style: normal;
+    color: var(--color-primary-white);
+    Width: 216px;
+    Height: 50px;
+    Top: 430px;
+    margin: 30px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    display: flexbox;
     cursor: pointer;
-    align-items: center;
+    align-items: normal;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: #2196f3;
 }
 .primery-button:hover {
-    color: #F5F5F5;
-    background-color: #fff;
+    color: #f5f5f5;
+    background-color: var(--color-primary-white);
     border: 2px solid red;
 }
-primery-button:focus {
-    color: #F5F5F5;
-    background-color: #fff;
+.primery-button:focus {
+    color: #f5f5f5;
+    background-color: var(--color-primary-white);
     border: 2px solid red;
+
+
+.section-advantages {
+    /*position: relative;
+    width: 1600px;
+    height: 246px;
+    background-color: var(--color-primary-white);*/
+
 }
-primery-button:active {
-    color: #F5F5F5;
-    background-color: #fff;
-    border: 2px solid red;
-}
-.hero-button {
+
+/*.hero-button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 
@@ -134,5 +141,5 @@ primery-button:active {
     font-size: 16px;
     line-height: 30px;
 
-    cursor: pointer;
+    cursor: pointer;*/
 }
