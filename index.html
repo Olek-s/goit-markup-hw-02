@@ -21,26 +21,26 @@
   <body>
     <header>
       <p class="visually-hidden">Головна/p></p>
-      <nav class="nav-links">
+      <nav>
         <a lang="en" class="logo" href="./index.html"
           >Web<span class="logo-studio">Studio</span></a
         >
         <ul>
-          <li><a href="./index.html" class="nav-links">Студія</a></li>
-          <li><a href="./portfolio.html" class="nav-links">Портфоліо</a></li>
-          <li><a href="#" class="nav-links">Контакти</a></li>
-        </ul>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="nav-links">
-              info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="nav-links">+38 096 111 11 11</a>
-          </li>
+          <li><a  class="nav-item" href="./index.html">Студія</a></li>
+          <li><a class="nav-item" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav-item" href="#">Контакти</a></li>
         </ul>
       </nav>
+      <ul>
+        <li>
+          <a class="nav-item" href="mailto:info@devstudio.com">
+            info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="nav-item" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <section class="section-hero">
@@ -116,8 +116,8 @@
               alt="фото Ігор Дем'яненко, Product Designer"
               width="270"
             />
-            <h3>Product Designer</h3>
-            <p>Ігор Дем'яненко</p>
+            <h3 class="team-position">Product Designer</h3>
+            <p class="team-member">Ігор Дем'яненко</p>
           </li>
           <li>
             <img
@@ -125,8 +125,8 @@
               alt="фото Ольга Рєпіна, Frontend Developer"
               width="270"
             />
-            <h3>Frontend Developer</h3>
-            <p>Ольга Рєпіна</p>
+            <h3 class="team-position">Frontend Developer</h3>
+            <p class="team-member">Ольга Рєпіна</p>
           </li>
           <li>
             <img
@@ -134,8 +134,8 @@
               alt="фото Микола Тарасов, Marketing"
               width="270"
             />
-            <h3>Marketing</h3>
-            <p>Микола Тарасов</p>
+            <h3 class="team-position">Marketing</h3>
+            <p class="team-member">Микола Тарасов</p>
           </li>
           <li>
             <img
@@ -143,8 +143,8 @@
               alt="фото Михайло Єрмаков, UI Designer"
               width="270"
             />
-            <h3>UI Designer</h3>
-            <p>Михайло Єрмаков</p>
+            <h3 class="team-position">UI Designer</h3>
+            <p class="team-member">Михайло Єрмаков</p>
           </li>
         </ul>
       </section>
@@ -152,30 +152,27 @@
     <footer>
       <div class="section-footer">
         <address>
-          <p>
-            <a class="logo" lang="en" href="./index.html"
-              >Web<span class="logo-studio-footer">Studio</span></a
-            >
-          </p>
-          <p>
-            <a
+          <a class="logo" lang="en" href="./index.html"
+            >Web<span class="logo-studio-footer">Studio</span></a
+          >
+          <ul>
+            <li>
+              <a
               class="mail-address"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </p>
-          <p>
-            <a class="address-email" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </p>
-          <p>
-            <a class="address-email" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </p>
+              >м. Київ, пр-т Лесі Українки, 26</a>
+            </li>
+           <li>
+              <a class="address-email" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="address-email" href="tel:+380961111111"
+              >+38 096 111 11 11/>
+            </li>
+          </ul>
         </address>
       </div>
     </footer>
